@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBDAABB6-8620-210A-6D4E-9F594FCAAACB" name="Item">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>35515296-6EA7-344D-44E2-8229C00D4BB8</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ItemNumber" id="4EC6AB12-4B6B-8C28-EE5E-26177EC8B975">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>D6289225-DBE9-1AED-B176-52CA214E4B22</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PartNumber" id="721EFB9C-ADA2-DC6F-222F-F44C2FD724D5">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>AA57B3F8-A180-7CDC-836C-42261105A69F</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>6E0EC4FF-5ED5-CE3F-8ED5-FB1A6EA7863A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BatchNumber" id="6ABEB4A4-602B-D01C-72B1-2889F3F3FA89">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>3DB3F22A-9FC0-90CD-4ABE-EC789F98F0AF</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CBE315F7-4763-9493-EC86-E284CEE8BA8F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F483AFB6-088C-E167-F3A3-86AA904AB59C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PartNumber1" id="6775728A-0899-BD9E-5EF8-9C19DFE9BB14">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>3DB3F22A-9FC0-90CD-4ABE-EC789F98F0AF</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>83B95367-F462-3F90-CBDA-5374991DE20A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>6E0EC4FF-5ED5-CE3F-8ED5-FB1A6EA7863A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8944DE4B-DC23-1C57-40E9-1D3A68B307EE" name="Item PK">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>6B927E2B-A6AF-4EA0-1562-11D80FA3C5C9</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4EC6AB12-4B6B-8C28-EE5E-26177EC8B975</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

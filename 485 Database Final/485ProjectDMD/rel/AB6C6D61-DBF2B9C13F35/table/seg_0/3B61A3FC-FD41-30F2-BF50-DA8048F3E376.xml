@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B61A3FC-FD41-30F2-BF50-DA8048F3E376" name="Batches">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>1A934D90-0877-4B16-1834-A80D9C197E31</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BatchNumber" id="DEDF4030-2046-1D5B-6E8E-8736E7AB4EAB">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>94D82184-2C96-F6B4-E553-0A53F5DCCFFF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F483AFB6-088C-E167-F3A3-86AA904AB59C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BatchSize" id="6854DEDE-DEAA-C132-272E-E4BE1C3D3C04">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>C9C03DE0-B668-1A27-8D31-45BC4453D459</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F483AFB6-088C-E167-F3A3-86AA904AB59C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ShipmentDate" id="BA0960A8-5515-8DDA-9796-C5FB72DC082A">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>49A56D8B-AD3C-1639-6327-8F577C2E3F09</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3E44134D-0503-4BCF-6640-3026F00090E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ArrivalDate" id="192FC9EF-6DE3-CB15-2545-0E78728DFCFD">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>20B71FA0-39DD-3458-894F-E06CBF0FDC7A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3E44134D-0503-4BCF-6640-3026F00090E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ManagerID" id="7D16D611-F986-E97F-B3E1-7F7C3C1CBC21">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>3B66419A-9CF0-7B32-1291-47E274129142</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7C3380C-B2F2-CFCC-9B79-E3520049C0C5" referredColumn="6744F0FD-A2F2-CE2D-E3AE-DD0DA4D695E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72EAA162-D278-8157-BFE7-DF9E85AB65BC" name="Batches_PK">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>D86BF479-DA6C-04E9-79D3-E824D2ACB671</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEDF4030-2046-1D5B-6E8E-8736E7AB4EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DAE6304-D140-9909-3991-D330A3D3F7FB" name="Batches_Employee_FK">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D16D611-F986-E97F-B3E1-7F7C3C1CBC21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E6BFC4B-D27B-D287-ACF1-91A7AA03B567" name="Batches_Parts_FK">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

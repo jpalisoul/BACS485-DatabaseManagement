@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01628681-5795-9818-7986-247251AA422A" name="Employee">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>3742A195-12C6-0748-0CAB-9190790D857D</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EmployeeID" id="7A6794F5-7B3B-4B2D-95D3-6E1077F3B065">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>6744F0FD-A2F2-CE2D-E3AE-DD0DA4D695E6</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNumber" id="D92193F0-25E8-E53E-8788-814C7F56FE1B">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>8EAB808D-DD50-953D-6FC5-A87449600963</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="6E1A61D7-028E-07DE-A21F-7DB5ECA93346">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>589B7518-D4C7-BE6E-97B5-D0A202F6AECF</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>550781D6-8923-7A59-D74D-C8092682F9E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MiddleName" id="7D076B49-4DC0-D731-AAF7-8EE77732CC7E">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>5CA7F5E8-C1C0-FEAF-3560-6F674A5A12CD</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>550781D6-8923-7A59-D74D-C8092682F9E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="7FFF8FDC-6C5D-C4B5-15EF-6B3A11464312">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>3E0E2857-C2C2-2B4A-7AB3-D6910703C920</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>550781D6-8923-7A59-D74D-C8092682F9E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="7394A062-77BA-E4CF-B8D8-F48616F9857E">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>2714C7C9-861C-3385-A833-44FEBF772094</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>88FEFA8C-2691-A924-6E69-700F49649BAE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ManagerID" id="FECD819B-FE34-02F4-531B-4759540A5DF0">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>D6D28AF3-0BF0-3D94-8806-087B168BEF63</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="298DEE95-7F8C-006F-5C94-63A1E8708805" name="Employee PK">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>2D5D7098-648E-AF36-AE37-3DA76E441FFB</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A6794F5-7B3B-4B2D-95D3-6E1077F3B065</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

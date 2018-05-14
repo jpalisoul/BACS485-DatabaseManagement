@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47500AF4-53E2-5498-DC8B-1C0945CD6230" name="BatchCheck">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>298AB937-176C-8460-6ACC-355E3147867C</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ArrivalDate" id="F89C6832-C93C-B81D-DC24-940D8D11D3D0">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>C6CC56DF-EC67-7A7E-D300-85C92F09B597</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3E44134D-0503-4BCF-6640-3026F00090E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CheckedIn" id="C4F978B4-EAAD-2AD0-2720-3A9DF39B8335">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>1AD2A504-E498-7A12-C506-F4740B3B1433</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>59C906B1-A7CA-44E1-EC9A-03B185EBB6E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BatchNumber" id="196EDFAD-A968-E3F5-2A73-69C81FDA036E">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>750C5719-5BCA-7BD8-EF97-600AEBF5449F</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CBE315F7-4763-9493-EC86-E284CEE8BA8F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F483AFB6-088C-E167-F3A3-86AA904AB59C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PartNumber" id="C090E0AD-9BE0-ED25-6FF9-C10793518735">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>750C5719-5BCA-7BD8-EF97-600AEBF5449F</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>83B95367-F462-3F90-CBDA-5374991DE20A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>6E0EC4FF-5ED5-CE3F-8ED5-FB1A6EA7863A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A2E5976-B727-79E4-9BDC-C259219454A9" name="BatchCheck PK">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>A687289C-4EDE-2264-2CAC-CE79DA0867DF</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F89C6832-C93C-B81D-DC24-940D8D11D3D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

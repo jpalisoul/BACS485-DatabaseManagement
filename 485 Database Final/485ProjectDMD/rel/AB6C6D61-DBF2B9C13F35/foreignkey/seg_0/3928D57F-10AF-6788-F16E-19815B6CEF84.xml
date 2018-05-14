@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3928D57F-10AF-6788-F16E-19815B6CEF84" containerWithKeyObject="CE4E4243-21DD-AC48-6576-D6F3D1856391" localFKIndex="85B9E631-174E-F204-327E-1DE629B06139" name="Bin_Warehouse_FK">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>16A8722B-3D28-E321-A132-19BD57CA86BE</importedID>
+<referredTableLongName>Warehouse</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>01519A5D-99F8-11AC-C346-5FF7123221F7</referredTableID>
+<keyObject>0B0BEA39-C475-9794-7BB9-3301B19E70DB</keyObject>
+<referredKeyID>0B0BEA39-C475-9794-7BB9-3301B19E70DB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>WarehouseID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

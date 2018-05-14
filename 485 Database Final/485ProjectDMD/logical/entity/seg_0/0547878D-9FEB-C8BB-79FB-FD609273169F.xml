@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0547878D-9FEB-C8BB-79FB-FD609273169F" name="Backorder">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>9C2941B8-E14A-18EC-D1F4-CDEAB22856A3</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BackorderID" id="FBBC8FC8-3ABE-C047-9218-6C5355392F1F">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>5F114316-B6A4-DCE0-28B5-343E6D38E4E8</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BackorderDate" id="FC8BDEBE-91B8-9FA6-1CB8-8DF777413AD9">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>0519374B-2B77-98E3-51AA-DB0CC11F51B0</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3E44134D-0503-4BCF-6640-3026F00090E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ManagerID" id="E2083B6A-F326-8ECA-DC0A-643647726FD2">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>5C46B08F-BA35-2410-DEDB-D510C0EEB430</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7A6794F5-7B3B-4B2D-95D3-6E1077F3B065</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity" id="A3EA201A-0A0A-FF8E-B474-C3FE2D4485DA">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>FB35974C-7061-1BAB-76E2-C56DDA26D285</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F483AFB6-088C-E167-F3A3-86AA904AB59C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PartNumber" id="50041D08-6F7E-222F-27EA-241BE947EA08">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>763FE5E3-FE37-6D49-28EC-602F2D198EEB</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AF5A15EF-C5AF-BCE5-0C62-3A5AC627E57D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>6E0EC4FF-5ED5-CE3F-8ED5-FB1A6EA7863A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F19858B-819B-3AED-ABAA-D06F7EAF52B1" name="Backorder PK">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>C01A7C34-2B24-3649-9C08-8E513746B50A</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBBC8FC8-3ABE-C047-9218-6C5355392F1F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

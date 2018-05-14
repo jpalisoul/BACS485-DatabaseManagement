@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13F54AFC-4466-3C21-7F63-90342C862FB1" name="Parts">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>A35CD945-6E2D-386F-0887-889113765C87</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PartNumber" id="7CFD3FDA-37BF-B53D-483B-0C818748F5BA">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>1932B954-2F6E-0115-F0C2-0FDA928D2E84</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>6E0EC4FF-5ED5-CE3F-8ED5-FB1A6EA7863A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity" id="5AAB657D-5012-F49F-C79B-45FD87081933">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>FB3A52DD-FE28-BB05-D801-19C2AE43AF7F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F483AFB6-088C-E167-F3A3-86AA904AB59C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Assembly" id="5EAD640C-F594-FC7D-F18B-B6BDB6C1013C">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>49FABC7B-CA0A-69CB-F4F0-81A47ADC010A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>59C906B1-A7CA-44E1-EC9A-03B185EBB6E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="809D6551-7419-2268-3BCA-CC4E21000A4B" name="Parts_PK">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>1E90672C-770C-BA95-25BE-CE8A170F18D0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CFD3FDA-37BF-B53D-483B-0C818748F5BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

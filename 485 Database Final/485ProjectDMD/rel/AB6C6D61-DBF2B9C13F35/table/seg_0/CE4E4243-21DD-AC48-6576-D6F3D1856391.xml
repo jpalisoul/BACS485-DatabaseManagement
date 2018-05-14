@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE4E4243-21DD-AC48-6576-D6F3D1856391" name="Bin">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>7B4BAD79-1C29-4030-D3DC-E003364CB986</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BinNumber" id="4AE642C0-9C9E-3FFC-F8D6-B03833F19DD2">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>9A6FAE07-E27D-3E4C-B364-3E7F165BB88B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F483AFB6-088C-E167-F3A3-86AA904AB59C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacity" id="90F2483D-59A3-466B-1DA5-60141C04D947">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>67AA0653-7337-046D-0F5C-3B89E0EF9DE6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F483AFB6-088C-E167-F3A3-86AA904AB59C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WarehouseID" id="B2BE9ACA-2C6E-A2A9-06E3-B3B5F7B56F9A">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>D56E62F7-35A6-C560-6108-22807367E49B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2BA70590-4A2A-9119-A6F6-4C85A139122A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3928D57F-10AF-6788-F16E-19815B6CEF84" referredColumn="5A43929B-3E9E-9230-7EC5-F341128A4ABC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE745523-212C-655E-0110-135802913C3F" name="Bin_PK">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>8A33AB7F-0EA2-378D-D016-166C7A4A71DB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AE642C0-9C9E-3FFC-F8D6-B03833F19DD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B1625C2-3E00-F96F-6407-FE16F491F7DE" name="Bin_Batches_FK">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="9A93870C-7188-C54E-F3A3-A97D3120A796" name="Bin_Parts_FK">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="85B9E631-174E-F204-327E-1DE629B06139" name="Bin_Warehouse_FK">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2BE9ACA-2C6E-A2A9-06E3-B3B5F7B56F9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

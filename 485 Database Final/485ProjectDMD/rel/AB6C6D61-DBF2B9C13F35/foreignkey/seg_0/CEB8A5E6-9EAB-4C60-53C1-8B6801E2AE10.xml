@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CEB8A5E6-9EAB-4C60-53C1-8B6801E2AE10" containerWithKeyObject="9C2941B8-E14A-18EC-D1F4-CDEAB22856A3" localFKIndex="88AA8844-2001-D3DA-87E9-9CD81974D65E" name="Backorder_Employee_FK">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>9CD56010-50E0-5DD7-34B9-92D6A6828104</importedID>
+<referredTableLongName>Employee</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3742A195-12C6-0748-0CAB-9190790D857D</referredTableID>
+<keyObject>2D5D7098-648E-AF36-AE37-3DA76E441FFB</keyObject>
+<referredKeyID>2D5D7098-648E-AF36-AE37-3DA76E441FFB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EmployeeID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

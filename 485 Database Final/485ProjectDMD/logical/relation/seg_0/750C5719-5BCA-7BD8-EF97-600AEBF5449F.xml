@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BatchCheck_Batches_FK" directorySegmentName="seg_0" id="750C5719-5BCA-7BD8-EF97-600AEBF5449F">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>CAF81F44-C7AD-84BF-A66D-3E217A29CA17</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<sourcePk>505A08A3-0271-CA66-E1F9-4422AD4081DA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>46D611F1-C15D-BEB1-7B35-00663AADC16F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47500AF4-53E2-5498-DC8B-1C0945CD6230</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

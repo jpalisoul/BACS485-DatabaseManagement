@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="485SQL_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_100" id="29910609-6BC1-5651-202B-F91FA84A2F50">
+         <createdBy>pali6037</createdBy>
+         <createdTime>2017-11-21 20:23:36 UTC</createdTime>
+         <ownerDesignName>485ProjectDMD</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>485SQL_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_4" id="2BA70590-4A2A-9119-A6F6-4C85A139122A">
+         <createdBy>pali6037</createdBy>
+         <createdTime>2017-11-21 20:23:36 UTC</createdTime>
+         <ownerDesignName>485ProjectDMD</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>4</dataTypeSize>
+         <fileName>485SQL_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="3E44134D-0503-4BCF-6640-3026F00090E8">
+         <createdBy>pali6037</createdBy>
+         <createdTime>2017-11-21 20:23:36 UTC</createdTime>
+         <ownerDesignName>485ProjectDMD</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>485SQL_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_20" id="500B4E80-A371-227E-60B7-58C8B84ACED0">
+         <createdBy>pali6037</createdBy>
+         <createdTime>2017-11-21 20:23:36 UTC</createdTime>
+         <ownerDesignName>485ProjectDMD</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>20</dataTypeSize>
+         <fileName>485SQL_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_10" id="550781D6-8923-7A59-D74D-C8092682F9E0">
+         <createdBy>pali6037</createdBy>
+         <createdTime>2017-11-21 20:23:36 UTC</createdTime>
+         <ownerDesignName>485ProjectDMD</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>485SQL_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_3" id="59C906B1-A7CA-44E1-EC9A-03B185EBB6E2">
+         <createdBy>pali6037</createdBy>
+         <createdTime>2017-11-21 20:23:36 UTC</createdTime>
+         <ownerDesignName>485ProjectDMD</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>3</dataTypeSize>
+         <fileName>485SQL_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_5" id="6E0EC4FF-5ED5-CE3F-8ED5-FB1A6EA7863A">
+         <createdBy>pali6037</createdBy>
+         <createdTime>2017-11-21 20:23:36 UTC</createdTime>
+         <ownerDesignName>485ProjectDMD</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>5</dataTypeSize>
+         <fileName>485SQL_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_255" id="88FEFA8C-2691-A924-6E69-700F49649BAE">
+         <createdBy>pali6037</createdBy>
+         <createdTime>2017-11-21 20:23:36 UTC</createdTime>
+         <ownerDesignName>485ProjectDMD</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>255</dataTypeSize>
+         <fileName>485SQL_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="F483AFB6-088C-E167-F3A3-86AA904AB59C">
+         <createdBy>pali6037</createdBy>
+         <createdTime>2017-11-21 20:23:36 UTC</createdTime>
+         <ownerDesignName>485ProjectDMD</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>485SQL_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

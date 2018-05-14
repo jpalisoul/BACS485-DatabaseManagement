@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D41F788-6874-DB3B-5C98-23C50CA65EE9" containerWithKeyObject="F7ACACA8-ABBF-2453-97CA-82ABE37B211B" localFKIndex="E503A904-8291-F393-1697-E86C88A5CD82" name="BackorderArchive_Backorder_FK">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>E3B7B15C-E18B-9566-1D3D-B17EE081913C</importedID>
+<referredTableLongName>Backorder</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9C2941B8-E14A-18EC-D1F4-CDEAB22856A3</referredTableID>
+<keyObject>C01A7C34-2B24-3649-9C08-8E513746B50A</keyObject>
+<referredKeyID>C01A7C34-2B24-3649-9C08-8E513746B50A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>BackorderID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D37F657D-AB24-C096-52FD-3ABA234CD71D" containerWithKeyObject="35515296-6EA7-344D-44E2-8229C00D4BB8" localFKIndex="61ACB335-43CD-973E-C81F-573A8CD99D64" name="Item_Batches_FK">
+<sourceDDLFile>485SQL.sql</sourceDDLFile>
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:23:36 UTC</createdTime>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<importedID>FF90DB0C-8C0F-FD0D-4A60-B4F4A610244E</importedID>
+<referredTableLongName>Batches</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3B61A3FC-FD41-30F2-BF50-DA8048F3E376</referredTableID>
+<keyObject>72EAA162-D278-8157-BFE7-DF9E85AB65BC</keyObject>
+<referredKeyID>72EAA162-D278-8157-BFE7-DF9E85AB65BC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>BatchNumber</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

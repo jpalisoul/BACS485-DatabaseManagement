@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Backorder_Parts_FK" directorySegmentName="seg_0" id="763FE5E3-FE37-6D49-28EC-602F2D198EEB">
+<createdBy>pali6037</createdBy>
+<createdTime>2017-11-21 20:44:35 UTC</createdTime>
+<generatorID>6306DB8F-58B9-55CF-8C86-33044512E0A5</generatorID>
+<ownerDesignName>485ProjectDMD</ownerDesignName>
+<engineerTo>
+<item key="AB6C6D61-CAFB-2B6B-E952-DBF2B9C13F35" value="true"/>
+<item key="9473B89A-7FD6-24C8-BCFE-0F18E384A662" value="true"/>
+</engineerTo>
+<sourcePk>202256BC-1E35-52ED-C311-9E7536C1DB94</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6827BB71-7177-BE2A-AFAB-3D973DD158E2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0547878D-9FEB-C8BB-79FB-FD609273169F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
